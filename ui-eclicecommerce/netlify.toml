@@ -13,4 +13,4 @@
   publish = "ui-eclicecommerce/build"
 
   # Default build command.
-  command = "yarn build"
+  command = "vite build"
