@@ -1,0 +1,33 @@
+:root {
+  --color-primary: #ff8400;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'roboto', sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+  align-items: flex-end;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.text-primary {
+  color: var(--color-primary) !important;
+}
